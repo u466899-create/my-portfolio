@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport"
+ content="width=device-width,
+ initial scale=1.0">
+<link rel="stylesheet"
+ href="https://cdnjs.cloudflare.com
+/ajax/libs/font-awesome/6.4.0/css/all
+.min.css">
+<title>portfolio</title>
+<style>
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body {
+background-color: #f4f4f4;
+font-family: Arial;
+color: #333;
+}
+header {
+background-color: #000;
+display: flex;
+text-align: center;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+padding: 20px;
+color: white;
+}
+nav a {
+color: white;
+padding: 10px;
+text-decoration: none;
+}
+.hero {
+text-align: center;
+display: flex;
+height: 80vh;
+align-items: center;
+justify-content: center;
+background: radial-gradient(circle,  #1e90ff, transparent);
+color: white;
+padding: 2rem;
+flex-direction: column;
+margin: 0;
+}
+.hero h2 {
+font-size: 2.5rem;
+}
+.hero p {
+font-size: 1.2rem;
+}
+}
+section {
+padding: 15px;
+}
+footer {
+background-color: #000;
+color: white;
+text-align: center;
+padding: 20px;
+font-size: 15px;
+}
+.btn {
+background-color: white;
+color: #1e90ff;
+padding: 10px;
+margin: 20px 20px;
+text-decoration: none;
+font-weight: bold;
+border-radius: 8px;
+}
+.btn:hover {
+background-color: #e0e0e0;
+}
+.social-link a {
+color: white;
+padding: 10px;
+font-size: 20px;
+}
+
+@media (max-width: 768px) {
+header {
+flex-direction: column;
+align-items: center;
+}
+nav a {
+display: block;
+margin: 10px 0;
+}
+.hero h2 {
+font-size: 2rem;
+}
+.hero p {
+font-size: 1rem;
+}
+}
+
+</style>
+</head>
+<body>
+
+<header>
+<h1>Welcome to Uc's Portfolio</h1>
+<nav>
+<a href="home.html">Home</a>
+<a href="about.html">About Me</a>
+<a href="project.html">Project</a>
+<a href="contact.html">Contact Me</a>
+</nav>
+</header>
+<main>
+<section id="hero">
+<div class="hero">
+<h2>Hello,<br>i'm Godswill</h2>
+<p>A passsionate web developer in training.</p><br>
+<a href="project.html" class="btn"> View my Project</a>
+</div>
+</section>
+</main>
+<footer>
+<p>&copy; 2025 Godswill Uche | Web Developer in Training | All rights reserved</p>
+<nav>
+<a href="home.html">Home</a>
+<a href="about.html">About Me</a>
+<a href="project.html">Project</a>
+<a href="contact.html">Contact Me</a
+</nav>
+</footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

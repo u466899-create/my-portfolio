@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+<title>
+form webpage
+</title>
+<style>
+body {
+background-color: #f4f4f4;
+padding: 20px;
+font-family: arial;
+}
+label {
+display: block;
+padding: 10px;
+margin-top: 10px;
+font-size: 20px;
+font-weight: bold;
+}
+input, select {
+padding: 5px;
+font-size: 15px;
+width: 100%;
+border-radius: 10px;
+
+}
+form {
+background-color: white;
+width: 100%;
+padding: 10px;
+border-radius: 10px;
+}
+button {
+background-color: #98ff98;
+color: white;
+padding: 5px;
+font-size: 15px;
+width: 100%;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+}
+p {
+color: white;
+}
+header {
+background-color: #222;
+color: white;
+width: 100%;
+text-align: center;
+border-radius: 10px;
+padding: 10px;
+}
+footer {
+background-color: #222;
+color: white;
+width: 100%;
+border-radius: 10px;
+text-align: center;
+padding: 10px;
+}
+</style>
+<meta charset="UTF 8">
+<meta viewport="width="device-width" initial scale="1">
+</head>
+<body>
+<header>
+<h1>Sign up Page</h1>
+</header>
+<main>
+<!-- form action="#" -->
+<label for="name">First name:</label>
+<input type="text" id="name" placeholder="Enter your name">
+
+<label for="name>Last name:</label>
+<input type="text" id="name" placeholder="Enter your last name">
+
+<label for="phone number">Phone No:</label>
+<input type="number" id="number" placeholder="Enter your phone No">
+
+<label for="email">Email:</label>
+<input type="email" id="email" placeholder="Enter your email">
+
+<label for="password">Password:</label>
+<input type="text, number" id="password" placeholder="Enter your password">
+
+<label for="password">Confirm password:</label>
+<input type="text, number" id="passwurd" placeholder="Confirm your password">
+
+<!-- select -->
+<label for="state">State of origin:</label>
+<select id="states">
+<option value="enugu">Enugu</option>
+<option value="anambra">Anambra</option>
+<option value="imo">Imo</option>
+<option value="ebonyi">Ebonyi</option>
+<option value="abia">Abia</option>
+</select>
+
+<!-- submit button -->
+<button>
+<p>Done!<br>submit</p>
+</button>
+</form>
+</main>
+
+<footer>
+<p>&copy; 2025 Godswill Uche | Web Developer in Training | All rights reserved</p>
+</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

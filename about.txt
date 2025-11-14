@@ -1,0 +1,192 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com
+/ajax/libs/font-awesome/6.4.0/css/all
+.min.css">
+<meta name="viewport" 
+content="width=device-width" 
+initial scale="1.0">
+<title>
+portfolio
+</title>
+<style>
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body {
+background-color: #f4f4f4;
+font-family: Arial;
+color: #333;
+}
+header {
+display: flex;
+text-align: center;
+padding: 20px;
+color: white;
+background-color: #000;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+}
+nav a {
+text-align: center;
+color: white;
+padding: 10px;
+text-decoration: none;
+}
+.hero {
+text-align: center;
+display: flex;
+height: 80vh;
+align-item: center;
+justify-item: center;
+background: radial-gradient(circle,  #1e90ff, transparent);
+color: white;
+padding: 1rem;
+margin: 0;
+flex-direction: column;
+}
+.hero h2 {
+font-size: 2.5rem;
+}
+.hero p {
+font-size: 1.2rem;
+}
+section {
+padding: 15px;
+}
+footer {
+background-color: #000000;
+color: white;
+text-align: center;
+padding: 20px;
+font-size: 15px;
+}
+p {
+font-size: 1.5rem;
+}
+.btn {
+background-color: white;
+color: #1e90ff;
+padding: 10px;
+margin: 10px 20px 30px;
+text-decoration: none;
+font-weight: bold;
+border-radius: 8px;
+}
+.btn:hover {
+background-color: #e0e0e0;
+}
+@media (max-width: 768px) {
+header {
+flex-direction: column;
+align-items: center;
+}
+nav a {
+display: block;
+margin: 10px ;
+}
+.hero h2 {
+font-size: 2rem;
+}
+.hero p {
+font-size: 1rem;
+}
+}
+
+
+</style>
+</head>
+
+<body>
+<header>
+<h1>About me</h1>
+<nav>
+<a href="home.html">Home</a>
+<a href="about.html">About</a>
+<a href="project.html">Project</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+<main>
+<section id="hero">
+<div class="hero content">
+<h2>Who am i ?</h2>
+<p>I am Godswill uche, a passionate student, 
+aspiring developer, and currently schools at Doyen British High School. One thing am very passionate about is coding and 
+Web development and i'm aspiring to study Software Engineering in the University </p>
+</div>
+
+<div class="hero content">
+<h2>What are my Skills ?</h2>
+<p>Most of my Skills are based on Web development, 
+using HTML and CSS to build websites that are user friendly and 
+i have been able to build a nice Home, Contact, and Project page. 
+other than this i have also been able to build other 
+projects of mine which you will see once you click on the project button above.
+Other than web development i am also a good artist, writer and public speaker. </p>
+</div>
+<div class="hero content">
+<h2>What are my working on ?</h2>
+<p>I am currently working on improving my portfolio website and 
+learning javascript to make it interactive.</p>
+</div>
+<div class="hero content">
+<h2>What is my Future goal and Vision ?</h2>
+<p>My goal is to become a Software engineer or
+ Web developer who builds impactful solutions.</p>
+</div>
+<div class="hero content">
+<h1>Thank you for visiting</h1><br>
+<a href="contact.html" class="btn">Contact Me</a>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="footer-content">
+<p>&copy; 2025 Godswill Uche | Web Developer in Training | All rights reserved</p>
+<div class="social links">
+<a href="mailto:u466899@gmail.com"><i class="fas fa-envelope"></i></a>
+<a href="http://facebook/UcheAkukwe.com"><i class="fab fa-facebook"></i></a>
+</div>
+<nav class="footer-nav">
+<a href="home.html">Home</a>
+<a href="about.html">About</a>
+<a href="project.html">Project</a>
+<a href="contact.html">Contact</a>
+</nav>
+</div>
+</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
