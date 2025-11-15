@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(to left, #000, #0008, #ff4500);
+           
+           
+
+        }
+       
+        .container {
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 100px;
+            padding: 10px;
+
+
+        }
+        label {
+            font-size: 30px;
+            margin: 10px 10px;
+            display: block;
+        }
+        input[type="text"] {
+            width: 250px;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        input[type="checkbox"] {
+            transform: scale(2.5);
+            margin-top: 10px;
+            cursor: pointer;
+
+        }
+        p {
+            font-size: 50px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 60px;
+            margin-bottom: 20px;
+        }
+        textarea {
+            width: 500px;
+            padding: 10px;
+            border: 1px solid black;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-top: 20px;
+            background: #ff6347;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: 2px solid #191970;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 10px;
+            box-shadow: 0 4px 8px red;
+        }
+        button:hover {
+            background-color: #bbbbbb;
+            transition: transform 0.3s;
+            transform: translateY(-5px);
+        }
+
+        .hero {
+
+           
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            color: black;
+            text-align: center;
+            padding: 20px ;
+            border-radius: 10px;
+            background: radial-gradient(circle , #98ff98, #daa520, #ff4500)
+
+        }
+        
+        
+        .hero {
+            padding: 20px;
+            border-radius: 10px;
+        }
+        img {
+            width: 400px;
+            height: 450px;
+            object-fit: contain;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px gray;
+           
+        }
+        .img:hover {
+            transform: translateY(-20px);
+            transition: transform 1.3s ease;
+        }
+        .change {
+            width: 300px;
+            height: 450px;
+            object-fit: contain;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px gray;
+            transition: transform 0.3s;
+        }
+        form {
+            width: 70%;
+        }
+    </style>
+</head>
+<body>
+    <form action="#">
+    <section class="hero">
+        <div class="img">
+        <img src="badge2.jpg" alt="Doyen badge">
+        </div>
+        <legend><h1>Welcome to Doyen Canteen<br>Where your fantacy becomes reality</h1></legend><br>
+        
+            <label for="name">Student Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+
+            <label for="class">Class:</label>
+            <input type="text" id="class" placeholder="Enter your class" required>
+    
+        <p>Now let the journey begin<br>Pick your favourite drink</p>
+        <div class="container">
+            <div class="img">
+                <img src="fanta.png" alt="fanta" class="change">
+                <label for="fanta">Product:Fanta</label>
+                <label for="fanta">Price: &#8358;500</label>
+                <input type="checkbox" id="fanta" name="beverage" value="Fanta">
+            </div>
+            <div class="img">
+                <img src="coke.png" alt="Coca Cola" class="change">
+                <label for="cocacola">Product:Coca Cola</label>
+                <label for="cocacola">Price: &#8358;500</label>
+                <input type="checkbox" id="cocacola" name="beverage" value="Coca Cola">
+                
+            </div>
+            <div class="img">
+                <img src="sprite.png" alt="Sprite" class="change">
+                <label for="sprite">Product:Sprite</label>
+                <label for="sprite">Price: &#8358;500</label>
+                <input type="checkbox" id="Sprite" name="beverage" value="Sprite">
+            </div>
+            <div class="img">
+                <img src="malt.png" alt="maltina" class="change">
+                <label for="malt">Product: Maltina</label>
+                <label for="malt">Price: &#8358;500</label>
+                <input type="checkbox" id="malt" name="beverage" value="maltina">
+            </div>
+            <div class="img">
+                <img src="yogurt1.png" alt="yougurt">
+                <label for="yougurt1">Product:Yogurt in bottle</label>
+                <label for="yougurt1">Price: &#8358;2000</label>
+                <input type="checkbox" id="yogurt1" name="beverage" value="yogurt1">
+            </div>
+            <div class="img">
+                <img src="glass-yogurt2.png" alt="yougurt in glass">
+                <label for="glass-yogurt2">Product: Strawberry Yoghurt</label>
+                <label for="glass-yogurt2">Price: &#8358;5000</label>
+                <input type="checkbox" id="glass" name="beverage" value="glass-yogurt2">
+            </div>
+            <div class="img">
+                <img src="big-mirinda.png" alt="Mirinda" class="change">
+                <label for="Mirinda">Product: Large sized Mirinda</label>
+                <label for="Mirinda">Price: &#8358;2000</label>
+                <input type="checkbox" id="Mirinda" name="beverage" value="Mirinda">
+            </div>
+             <div class="img">
+                <img src="glass-juice.png" alt="glass-juice">
+                <label for="glass-juice">Product: Apple Juice</label>
+                <label for="glass-juice">Price: &#8358;1500</label>
+                <input type="checkbox" id="glass-juice" name="beverage" value="glass-juice">
+            </div>
+             <div class="img">
+                <img src="glass-yogurt.png" alt="yougurt in glass">
+                <label for="glass-yogurt">Product: Vanilla Yoghurt</label>
+                <label for="glass-yogurt">Price: &#8358;1500</label>
+                <input type="checkbox" id="glass-yogurt" name="beverage" value="glass-yogurt">
+            </div>
+        </div>
+    
+        <p>Pick your favourite dish</p>
+        <div class="container">
+            <div class="img">
+                <img src="fried-rice.png" alt="jollof rice">
+                <label for="fried-rice">Product:Fried Rice</label>
+                <label for="fried-rice">Price: &#8358;3000</label>
+                <input type="checkbox" id="fried-rice" name="dish" value="fried Rice">
+            </div>
+            <div class="img">
+                <img src="bean1.png" alt="beans">
+                <label for="beans">Product: Beans</label>
+                <label for="beans">Price: &#8358;3000</label>
+                <input type="checkbox" id="beans" name="dish" value="beans">
+            </div>
+            <div class="img">
+                <img src="spaghetti.png" alt="Spaghetti">
+                <label for="Spaghetti">Product: Spagetti and Stew</label>
+                <label for="Spaghetti">Price: &#8358;5000</label>
+                <input type="checkbox" id="Spaghetti" name="dish" value="Spaghetti">
+            </div>
+            <div class="img">
+                <img src="spaghetti1.png" alt="Spaghetti">
+                <label for="Spaghetti1">Product: Jollof Spaghetti</label>
+                <label for="Spaghetti1">Price: &#8358;6000</label>
+                <input type="checkbox" id="Spaghetti1" name="dish" value="Spaghetti">
+            </div>
+            <div class="img">
+                <img src="fried-plantain.png" alt="fried-plantain">
+                <label for="fried-plantain">Product: Rispy Fried PLantain</label>
+                <label for="fried-plantain">Price: &#8358;6000</label>
+                <input type="checkbox" id="fried-plantain" name="dish" value="fried-plantain">
+            </div>
+            <div class="img">
+                <img src="fried-plantain1.png" alt="fried-plantain1">
+                <label for="fried-plantain1">Product: Crispy Fried Plantain</label>
+                <label for="fried-plantain1">Price: &#8358;6500</label>
+                <input type="checkbox" id="fried-plantain1" name="dish" value="fried-plantain1">
+            </div>
+            <div class="img">
+                <img src="pizza.png" alt="pizza">
+                <label for="pizza">Product: Chicken Flavored Pizza</label>
+                <label for="pizza">Price: &#8358;25000</label>
+                <input type="checkbox" id="pizza" name="dish" value="pizza">
+            </div>
+            <div class="img">
+                <img src="pizza1.png" alt="pizza1">
+                <label for="pizza1">Product: Cheese Flavored Pizza</label>
+                <label for="pizza1">Price: &#8358;20500</label>
+                <input type="checkbox" id="pizza1" name="dish" value="pizza1">
+            </div>
+            <div class="img">
+                <img src="sharwama.png" alt="sharwama">
+                <label for="sharwama">Product: Fish Flavored Sharwama</label>
+                <label for="sharwama">Price: &#8358;10000</label>
+                <input type="checkbox" id="sharwama" name="dish" value="sharwama">
+            </div>
+            <div class="img">
+                <img src="sharwama1.png" alt="Sharwama">
+                <label for="sharwama1">Product: Chicken Flavored Sharwama</label>
+                <label for="sharwama1">Price: &#8358;10000</label>
+                <input type="checkbox" id="sharwama1" name="dish" value="sharwama1">
+            </div>
+            <div class="img">
+                <img src="doughnut (2).png" alt="doughnut">
+                <label for="doughnut">Product: Doughnut</label>
+                <label for="doughnut">Price: &#8358;5000</label>
+                <input type="checkbox" id="doughnut" name="dish" value="doughnut">
+            </div>
+            <div class="img">
+                <img src="bread.png" alt="bread">
+                <label for="bread">Product: Bread (unsliced)</label>
+                <label for="bread">Price: &#8358;15000</label>
+                <input type="checkbox" id="bread" name="dish" value="bread">
+            </div>
+            <div class="img">
+                <img src="bread1.png" alt="bread1">
+                <label for="bread1">Product: Bread (Sliced)</label>
+                <label for="bread1">Price: &#8358;8000</label>
+                <input type="checkbox" id="bread1" name="dish" value="bread1">
+            </div>
+            
+        </div>
+        <div>
+            <textarea name="additional-info" id="additional-info" cols="30" rows="4" placeholder="What do you think of our food..."></textarea><br>
+            <button type="submit">Submit Order</button>
+            </div>
+    </section>
+    </form>
+</body>
+</html>
